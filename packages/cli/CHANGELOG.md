@@ -1,5 +1,11 @@
 # @shopify/cli-hydrogen
 
+## 5.1.1
+
+### Patch Changes
+
+- Skip Oxygen requirement checks of `remix.config.js` when `@shopify/remix-oxygen` is not installed. ([#1137](https://github.com/Shopify/hydrogen/pull/1137)) by [@frandiox](https://github.com/frandiox)
+
 ## 5.1.0
 
 ### What’s new
