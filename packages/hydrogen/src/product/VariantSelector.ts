@@ -60,7 +60,6 @@ export function VariantSelector({
       return (
         options
           // Only show options with more than one value
-          .filter((option) => option?.values?.length! > 1)
           .map((option) => {
             let activeValue;
             let availableValues: VariantOptionValue[] = [];
